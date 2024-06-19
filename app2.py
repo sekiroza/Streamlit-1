@@ -31,7 +31,7 @@ add_column_if_not_exists(c, 'users', 'premium_expiry', 'TEXT')
 add_column_if_not_exists(c, 'users', 'free_uses', 'INTEGER DEFAULT 0')
 
 # 设置 Tesseract OCR 的路径
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\asd59\OneDrive\桌面\app2\Tesseract-OCR'
+pytesseract.pytesseract.tesseract_cmd = r'Tesseract-OCR\tesseract.exe'
 
 # 主函数
 def main():
