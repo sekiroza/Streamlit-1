@@ -23,7 +23,7 @@ except IOError:
     from spacy.cli import download
     download("en_core_web_sm")
     spacy_en = spacy.load("en_core_web_sm")
-    
+
 # 初始化数据库连接
 conn = sqlite3.connect('users.db')
 c = conn.cursor()
