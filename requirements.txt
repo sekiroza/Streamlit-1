@@ -5,6 +5,6 @@ pytesseract
 spacy==3.0.0
 numpy
 streamlit-drawable-canvas
-pydantic==1.8.2
+pydantic==1.7.4
 zh_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/zh_core_web_sm-3.0.0/zh_core_web_sm-3.0.0.tar.gz
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
