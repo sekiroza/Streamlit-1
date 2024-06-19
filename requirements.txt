@@ -2,9 +2,10 @@ streamlit
 PyMuPDF
 Pillow
 pytesseract
-spacy==3.0.0
+spacy==3.1.1
 numpy
 streamlit-drawable-canvas
-pydantic==1.7.4
+pydantic==1.8.2
+thinc==8.0.12
 zh_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/zh_core_web_sm-3.0.0/zh_core_web_sm-3.0.0.tar.gz
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
