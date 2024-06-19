@@ -1,0 +1,8 @@
+streamlit
+sqlite3
+PyMuPDF
+Pillow
+pytesseract
+spacy
+numpy
+streamlit-drawable-canvas
