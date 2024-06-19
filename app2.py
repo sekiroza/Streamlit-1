@@ -9,10 +9,20 @@ import numpy as np
 from datetime import datetime, timedelta
 from streamlit_drawable_canvas import st_canvas
 
-# 加载Spacy中文和英文模型
-spacy_zh = spacy.load("zh_core_web_sm")
-spacy_en = spacy.load("en_core_web_sm")
+# 確保 Spacy 中文和英文模型已安裝
+try:
+    spacy_zh = spacy.load("zh_core_web_sm")
+except IOError:
+    from spacy.cli import download
+    download("zh_core_web_sm")
+    spacy_zh = spacy.load("zh_core_web_sm")
 
+try:
+    spacy_en = spacy.load("en_core_web_sm")
+except IOError:
+    from spacy.cli import download
+    download("en_core_web_sm")
+    spacy_en = spacy.load("en_core_web_sm")
 # 初始化数据库连接
 conn = sqlite3.connect('users.db')
 c = conn.cursor()
