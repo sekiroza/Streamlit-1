@@ -2,6 +2,7 @@ import streamlit as st
 import fitz  # PyMuPDF
 from PIL import Image
 import numpy as np
+import io  # 添加这行代码导入 io 模块
 from streamlit_drawable_canvas import st_canvas
 
 def main():
